@@ -1,0 +1,6 @@
+Console.WriteLine("Ingrese numero");
+try{
+    double cant=Convert.ToDouble(Console.ReadLine());
+}catch(Exception e){
+    Console.WriteLine("Ingrese nuevamente el numero");
+}
